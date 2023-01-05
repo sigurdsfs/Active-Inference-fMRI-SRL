@@ -1,10 +1,10 @@
 # Active-Inference-fMRI-SRL
-"MDP Models" Contains 3 proposed task specific active inference MDPs.
-\- One variant with 5 time steps & 2 hidden state factors.
-\- One variant with 2 time steps & 2 hidden state factors.
-\- One variant which allowed the participants to be "left/right" blind. 
+* "MDP Models" Contains 3 proposed task specific active inference MDPs.
+  * One variant with 5 time steps & 2 hidden state factors.
+  * One variant with 2 time steps & 2 hidden state factors.
+  * One variant which allowed the participants to be "left/right" blind. 
 
-"fMRI" Contains all scripts used for fMRI preprocessing, 1st- and 2nd-level of analysis.
+* "fMRI" Contains all scripts used for fMRI preprocessing, 1st- and 2nd-level of analysis.
 
 ## The Project in brief
 In this fMRI project, we intend to use computational active inference models in shape of discrete POMDPs to identify brain regions activated by our task. In this project, 48 healthy male volunteers performed a reward-based associative learning task with winning probabilities of a card (a green or a yellow fractal) changing between 0.8 and 0.2 over 160 trials divided in six blocks. Model parameters will be recovered by using the SPM dynamic expectation maximization (DEM) library to achieve model inversion in relation to the empirically collected states and observation of the participants. Recovered parameter and state trajectories will inform the design matrices for our fMRI analysis. More specifically we will be investigating the brain regions found to be related with learning rate (eta:η), action precision (alpha:α) and expected precision of expected free energy (EFE; beta:β), risk seeking (RS) as well as trial wise phasic dopamine predicted by the neural process theory of active inference.   
