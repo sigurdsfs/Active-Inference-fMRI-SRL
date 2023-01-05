@@ -1,5 +1,6 @@
 # Active-Inference-fMRI-SRL
 \- "MDP Models" Contains 3 proposed task speicif active inference MDPs.
+
 \- "fMRI" Contains all the scripts used for preprocessing, 1st- and 2nd-level of analysis.
 
 ## The Project in brief
